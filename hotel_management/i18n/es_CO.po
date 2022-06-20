@@ -1,0 +1,3863 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hotel_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-15 16:49+0000\n"
+"PO-Revision-Date: 2022-03-15 16:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_agent_commission_invoice_line
+msgid " Commision Invoice Line"
+msgstr "Comisión Línea de factura"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+msgid "(Compute)"
+msgstr "(Computar)"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+msgid "(Update History)"
+msgstr "(Actualizar Historia)"
+
+#. module: hotel_management
+#: model:ir.actions.report,print_report_name:hotel_management.action_report_hotel_reservation_document_pdf
+msgid ""
+"(object.state in ('draft', 'sent') and\n"
+"                'Quotation - %s' % (object.name)) or 'Order - %s' % (object.name)"
+msgstr ""
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "- To Date:"
+msgstr "- Hasta la fecha:"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__01
+msgid "1 AM"
+msgstr "1 a.m."
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__13
+msgid "1 PM"
+msgstr "13:00"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "1.00"
+msgstr "1.00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__10
+msgid "10 AM"
+msgstr "10 a. m."
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__22
+msgid "10 PM"
+msgstr "22:00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__11
+msgid "11 AM"
+msgstr ""
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__23
+msgid "11 PM"
+msgstr "23:00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__24
+msgid "12 Mid Night"
+msgstr "12 media noche"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__12
+msgid "12 Noon"
+msgstr "12 medio Día"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__02
+msgid "2 AM"
+msgstr "2 a.m."
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__14
+msgid "2 PM"
+msgstr "14:00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__name__24hour
+msgid "24 Hours"
+msgstr "24 Horas"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__03
+msgid "3 AM"
+msgstr "3 a.m."
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__15
+msgid "3 PM"
+msgstr "15:00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__04
+msgid "4 AM"
+msgstr "4 a.m."
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__16
+msgid "4 PM"
+msgstr "16:00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__05
+msgid "5 AM"
+msgstr "5 a.m."
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__17
+msgid "5 PM"
+msgstr "17:00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__06
+msgid "6 AM"
+msgstr "6 a.m."
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__18
+msgid "6 PM"
+msgstr "18:00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__07
+msgid "7 AM"
+msgstr "7 a.m."
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__19
+msgid "7 PM"
+msgstr "19:00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__08
+msgid "8 AM"
+msgstr "8 a. m."
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__20
+msgid "8 PM"
+msgstr "20:00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__21
+msgid "9  PM"
+msgstr "21:00"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__time__09
+msgid "9 AM"
+msgstr "9 a.m."
+
+#. module: hotel_management
+#: model:mail.template,body_html:hotel_management.hotel_reservation_confirmed_mail_template
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                <p style=\"margin: 0px; padding: 0px; font-size: 12px;\">\n"
+"        Hello,\n"
+"                    <br/>\n"
+"                    <br/>\n"
+"        Your reservation order\n"
+"                    <strong>${object.reservation_no}</strong> amounting in\n"
+"                    <strong>${format_amount(object.total_cost1, object.currency_id)}</strong>\n"
+"            has been confirmed.\n"
+"                    <br/>\n"
+"            Thank you for your trust!\n"
+"                    <br/>\n"
+"                    <br/>\n"
+"        Do not hesitate to contact us if you have any questions.\n"
+"                    <br/>\n"
+"                    <br/>\n"
+"                </p>\n"
+"                <div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
+"                        <tr style=\"border-bottom: 2px solid #dee2e6;\">\n"
+"                            <td style=\"width: 150px;\">\n"
+"                                <strong>Room</strong>\n"
+"                            </td>\n"
+"                            <td width=\"15%\" align=\"center\">\n"
+"                                <strong>No. of days</strong>\n"
+"                            </td>\n"
+"                            <td width=\"20%\" align=\"right\">\n"
+"                                <strong>\n"
+"                                Price\n"
+"                </strong>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"                    <br/>\n"
+"        % for line in object.reservation_line:\n"
+"                    <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
+"                        <tr style=\"${loop.cycle('background-color: #f2f2f2', 'background-color: #ffffff')}\">\n"
+"                            <td align=\"left\">${line.room_number.name}</td>\n"
+"                            <td width=\"15%\" align=\"center\">${line.number_of_days}</td>\n"
+"                            <td width=\"20%\" align=\"right\">\n"
+"                                <strong>\n"
+"                                    ${format_amount(line.sub_total1, object.currency_id)}\n"
+"                                </strong>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"        % endfor\n"
+"                </div>\n"
+"                <br/>\n"
+"                <br/>\n"
+"                <div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
+"                        <tr style=\"border-bottom: 2px solid #dee2e6;\">\n"
+"                            <td style=\"width: 150px;\">\n"
+"                                <strong>Product</strong>\n"
+"                            </td>\n"
+"                            <td width=\"15%\" align=\"center\">\n"
+"                                <strong>Quantity</strong>\n"
+"                            </td>\n"
+"                            <td width=\"20%\" align=\"right\">\n"
+"                                <strong>\n"
+"                                Price\n"
+"                </strong>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"                    <br/>\n"
+"        % for line in object.other_items_ids:\n"
+"                    <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-collapse: collapse;\">\n"
+"                        <tr style=\"${loop.cycle('background-color: #f2f2f2', 'background-color: #ffffff')}\">\n"
+"                            <td align=\"left\">${line.product_id.name}</td>\n"
+"                            <td width=\"15%\" align=\"center\">${line.product_uom_qty}</td>\n"
+"                            <td width=\"20%\" align=\"right\">\n"
+"                                <strong>\n"
+"                                    ${format_amount(line.price_subtotal, object.currency_id)}\n"
+"                                </strong>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"        % endfor\n"
+"                </div>\n"
+"                <br/>\n"
+"                <div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <table width=\"100%\" style=\"color: #454748; font-size: 12px; border-spacing: 0px 4px;\" align=\"right\">\n"
+"                        <tr>\n"
+"                            <td style=\"width: 60%\"/>\n"
+"                            <td style=\"width: 30%; border-top: 1px solid #dee2e6;\" align=\"right\">\n"
+"                                <strong>Subtotal:</strong>\n"
+"                            </td>\n"
+"                            <td style=\"width: 10%; border-top: 1px solid #dee2e6;\" align=\"right\">${format_amount(object.untaxed_amt, object.currency_id)}</td>\n"
+"                        </tr>\n"
+"                        <tr>\n"
+"                            <td style=\"width: 60%\"/>\n"
+"                            <td style=\"width: 30%;\" align=\"right\">\n"
+"                                <strong>Tax:</strong>\n"
+"                            </td>\n"
+"                            <td style=\"width: 10%;\" align=\"right\">${format_amount(object.total_tax, object.currency_id)}</td>\n"
+"                        </tr>\n"
+"                        <tr>\n"
+"                            <td style=\"width: 60%\"/>\n"
+"                            <td style=\"width: 30%;\" align=\"right\">\n"
+"                                <strong>Total:</strong>\n"
+"                            </td>\n"
+"                            <td style=\"width: 10%;\" align=\"right\">${format_amount(object.total_cost1, object.currency_id)}</td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"                </div>\n"
+"            </div>\n"
+"        "
+msgstr ""
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "<span>Disc.%</span>"
+msgstr "<span>% de disco</span>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "<span>Pro-Forma Invoice # </span>"
+msgstr "<span>Factura Pro-Forma # </span>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "<span>Sub Total</span>"
+msgstr "<span>Subtotal</span>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_kot_report111
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_kot_report111
+msgid ""
+"<strong style=\"font-family :Times New Roman ;line-height: 200%; font-size: "
+"30px;\">Kitchen Order Ticket</strong>"
+msgstr ""
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong> Date : </strong>"
+msgstr "<strong> Fecha : </strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong> Invoice Address : </strong>"
+msgstr "<strong> Dirección de facturación: </strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkin_report
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkout_report
+msgid "<strong>#No</strong>"
+msgstr "<strong>#No</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "<strong>Adults:</strong>"
+msgstr "<strong>Adultos:</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>Authorized Signatory</strong>"
+msgstr "<strong>Firma autorizada</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>Cashier : </strong>"
+msgstr "<strong>Cajero : </strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_report
+msgid "<strong>Check In</strong>"
+msgstr "<strong>Registrarse</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_report
+msgid "<strong>Check Out</strong>"
+msgstr "<strong>Echa un vistazo</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkin_report
+msgid "<strong>Check-In-Date</strong>"
+msgstr "<strong>Fecha de entrada</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkout_report
+msgid "<strong>Check-Out-Date</strong>"
+msgstr "<strong>Fecha de salida</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "<strong>Children:</strong>"
+msgstr "<strong> Niños: </strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_kot_report111
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_kot_report111
+msgid "<strong>Date</strong>"
+msgstr "<strong>Fecha</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>Days</strong>"
+msgstr "<strong>Días</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_kot_report111
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_kot_report111
+msgid "<strong>Food Item List</strong>"
+msgstr "Lista de articulo de alimento"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_kot_report111
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_kot_report111
+msgid "<strong>Food Item</strong>"
+msgstr "Articulo alimento"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkin_report
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkout_report
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_report
+msgid "<strong>Guest Name</strong>"
+msgstr "Nombre Huésped"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>Guest's Signature</strong>"
+msgstr "Firma Huésped"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "<strong>No. Of Rooms:</strong>"
+msgstr "<fuerte>No. De Habitaciones:</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_room_report
+msgid "<strong>No. of Times used</strong>"
+msgstr "<fuerte>No. de Veces utilizado</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "<strong>Order Date:</strong>"
+msgstr "<strong>Fecha de pedido:</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+msgid "<strong>Order List</strong>"
+msgstr "Lista de pedido"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_kot_report111
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_kot_report111
+msgid "<strong>Order Number</strong>"
+msgstr "Numero pedido"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>PLEASE RETURN YOUR KEY ON DEPARTURE.</strong>"
+msgstr "POR FAVOR DEVUELVA SU LLAVE A SU PARTIDA"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>Particulers</strong>"
+msgstr "<strong>Partículas</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>Pax</strong>"
+msgstr "<strong>pax</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>Qty</strong>"
+msgstr "Cantidad"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_kot_report111
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_kot_report111
+msgid "<strong>Quantity</strong>"
+msgstr "Cantidad"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+msgid "<strong>Rate</strong>"
+msgstr "Tarifa"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_report
+msgid "<strong>Reservation No.</strong>"
+msgstr "Reservación No"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "<strong>Reservation Tax</strong>"
+msgstr "<strong>Impuesto de reserva</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+msgid "<strong>Room Accommodation Invoice</strong>"
+msgstr "Factura de Alojamiento de Habitación"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_room_report
+msgid "<strong>Room No.</strong>"
+msgstr "Habitación No."
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkin_report
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkout_report
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_report
+msgid "<strong>Room No</strong>"
+msgstr "Habitación No"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_kot_report111
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_kot_report111
+msgid "<strong>Room Number</strong>"
+msgstr "Habitación numero"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkin_report
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkout_report
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_report
+msgid "<strong>Room Type</strong>"
+msgstr "Habitación Tipo"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>SN</strong>"
+msgstr "No.de serie"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_kot_report111
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_kot_report111
+msgid "<strong>Served By</strong>"
+msgstr "Servido por"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+msgid "<strong>SubTotal</strong>"
+msgstr "SubTotal"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+msgid "<strong>Table Information</strong>"
+msgstr "Mesa Información"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_kot_report111
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_kot_report111
+msgid "<strong>Table Number</strong>"
+msgstr "Mesa numero"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>Tax :</strong>"
+msgstr "Impuestos :"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "<strong>Total Charges :</strong>"
+msgstr "Total Cargos :"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "<strong>Total Reservation Cost</strong>"
+msgstr "<strong>Coste total de la reserva</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "<strong>Untaxed Amount</strong>"
+msgstr "<strong>Cantidad no gravada</strong>"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+msgid "<strong>Waiter Name</strong>"
+msgstr "Camarero nombre"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_laundry_line__product_type
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_transport_line__product_type
+#: model:ir.model.fields,help:hotel_management.field_hotel_food_line__product_type
+msgid ""
+"A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
+"A consumable product is a product for which stock is not managed.\n"
+"A service is a non-material product you provide."
+msgstr ""
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__access_warning
+msgid "Access warning"
+msgstr "Advertencia de acceso"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_laundry_line__qty_delivered_method
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_transport_line__qty_delivered_method
+#: model:ir.model.fields,help:hotel_management.field_hotel_food_line__qty_delivered_method
+msgid ""
+"According to product configuration, the delivered quantity can be automatically computed by mechanism :\n"
+"  - Manual: the quantity is set manually on the line\n"
+"  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
+"  - Timesheet: the quantity is the sum of hours recorded on tasks linked to this sale line\n"
+"  - Stock Moves: the quantity comes from confirmed pickings\n"
+msgstr ""
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_needaction
+msgid "Action Needed"
+msgstr "Accion necesaria"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__activity_ids
+msgid "Activities"
+msgstr "Ocupaciones"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__activity
+msgid "Activity"
+msgstr "Actividad"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de excepción de actividad"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__activity_state
+msgid "Activity State"
+msgstr "Estado de actividad"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icono de tipo de actividad"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.roomwise_guestwise_report_view
+msgid "Address"
+msgstr "Habla a"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__adults
+msgid "Adults"
+msgstr "Adultos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__adv_amount
+msgid "Advance Amount"
+msgstr "Cantidad de avance"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__deposit_cost2
+#: model_terms:ir.ui.view,arch_db:hotel_management.advance_payment_wizard1
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+msgid "Advance Payment"
+msgstr "Pago por adelantado"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_advance_payment_wizard
+msgid "Advance Payment Detail Wizard"
+msgstr "Asistente de detalle de pago por adelantado"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: model:ir.actions.act_window,name:hotel_management.act_advance_payment_entry1
+#, python-format
+msgid "Advance Payment Entry"
+msgstr "Entrada de pago anticipado"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__partner_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__agent_id
+#: model:ir.model.fields,field_description:hotel_management.field_res_partner__agent
+#: model:ir.model.fields,field_description:hotel_management.field_res_users__agent
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_reservation__via__agent
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_partner_property_form_commission
+msgid "Agent"
+msgstr "Agente"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_agent_commission_invoice
+msgid "Agent Commision Invoice"
+msgstr "Agente Comisión Factura"
+
+#. module: hotel_management
+#: model:ir.ui.menu,name:hotel_management.menu_agent_commission
+msgid "Agent Commission"
+msgstr "Agente Comisión"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__name
+msgid "Agent Commission ID"
+msgstr "Agente Comisión ID"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_agent_commission_invoice_form_view
+#: model:ir.ui.menu,name:hotel_management.menu_agent_commission_invoice
+#: model_terms:ir.ui.view,arch_db:hotel_management.agent_commission_invoic_form_view1
+#: model_terms:ir.ui.view,arch_db:hotel_management.agent_commission_invoice_tree_view
+msgid "Agent Commission Invoice"
+msgstr "Agente Comisión factura"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.agent_commission_invoice_line_tree_view
+msgid "Agent Commission Invoice Line"
+msgstr "Agente Comisión Línea de factura"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__agent_invoice_ids
+msgid "Agent Invoices"
+msgstr "Agentes factura"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "Alert for %s!"
+msgstr "¡Alerta para %s!"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_hotel_reservation_tree_cancel
+#: model:ir.ui.menu,name:hotel_management.menu_action_hotel_reservation_tree_cancel
+msgid "All Cancelled Reservation"
+msgstr "Toda la reserva cancelada"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_hotel_reservation_tree_confirm
+#: model:ir.ui.menu,name:hotel_management.menu_action_hotel_reservation_tree_confirm
+msgid "All Confirm Reservation"
+msgstr "Toda Reservación confirme"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_hotel_reservation_tree_done
+#: model:ir.ui.menu,name:hotel_management.menu_action_hotel_reservation_tree_done
+msgid "All Done Reservation"
+msgstr "Toda Reservación Hecha"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_hotel_reservation_tree_draft11
+#: model:ir.ui.menu,name:hotel_management.menu_action_hotel_reservation_tree_draft
+msgid "All Draft Reservation"
+msgstr "Todos los borradores de Reservación"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_hotel_reservation_tree_all
+msgid "All Reservation"
+msgstr "Todas Reservación"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__amt
+msgid "Amount"
+msgstr "Cantidad"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__analytic_tag_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__analytic_tag_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__analytic_tag_ids
+msgid "Analytic Tags"
+msgstr "Etiquetas analíticas"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__analytic_line_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__analytic_line_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__analytic_line_ids
+msgid "Analytic lines"
+msgstr "Líneas analíticas"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__applied_coupon_ids
+msgid "Applied Coupons"
+msgstr "Cupones aplicados"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__no_code_promo_program_ids
+msgid "Applied Immediate Promo Programs"
+msgstr "Programas de promoción inmediata aplicados"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__code_promo_program_id
+msgid "Applied Promo Program"
+msgstr "Programa de promoción aplicado"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__promo_code
+msgid "Applied program code"
+msgstr "código de programa aplicado"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__approved_by
+msgid "Approved By"
+msgstr "Aprobado por"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest
+msgid "Arrival Departure Report"
+msgstr "Informe de llegada y salida"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest
+msgid "Arrival Time"
+msgstr "Hora de llegada"
+
+#. module: hotel_management
+#: model:ir.actions.report,name:hotel_management.report_arrival_dept_guest
+msgid "Arrival/Depart Guest List"
+msgstr "Lista de invitados de llegada/salida"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_rr_housekeeping_form
+msgid "Assign"
+msgstr "asignar"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__assign_to
+msgid "Assign Method"
+msgstr "Metodo de asignar"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__state__assign
+msgid "Assigned"
+msgstr "Asignado"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__assigned_internal
+msgid "Assigned To"
+msgstr "Asignado A"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__assigned_third_party
+msgid "Assigned To Thirt Party"
+msgstr "Asignado a un tercero"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_attachment_count
+msgid "Attachment Count"
+msgstr "Recuento de archivos adjuntos"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+msgid "Automatic Declaration"
+msgstr "Declaración Automática"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_tables__avl_state
+msgid "Availability Status"
+msgstr "Estado disponible"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_tables__avl_state__available
+msgid "Available"
+msgstr "Disponible"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_menucard__product_nature__bot
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_kitchen_order_tickets__product_nature__bot
+#: model:ir.model.fields.selection,name:hotel_management.selection__product_template__product_nature__bot
+#: model:ir.ui.menu,name:hotel_management.menu_view_hotel_restaurant_kitchen_order_tickets_bot_inherit
+msgid "BOT"
+msgstr "BOT"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_restaurant_kitchen_order_tickets_tree_bot
+msgid "BOT List"
+msgstr "BOT Lista"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_kitchen_order_tickets__ordernobot
+msgid "BOT Number"
+msgstr "BOT Numero"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.open_view_hotel_restaurant_kitchen_order_tickets_form_tree_bot
+msgid "BOT Order List"
+msgstr "BOT Lista de pedidos"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "Base Currency Amt("
+msgstr "Monto de moneda base ("
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+msgid "Basic Info"
+msgstr "Info Básica"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__res_partner__reservation_warn__block
+msgid "Blocking Message"
+msgstr "Mensaje de bloqueo"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_tables__avl_state__book
+msgid "Booked"
+msgstr "Reservado"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupency_report_view
+msgid "Booked Room"
+msgstr "Habitacion reservada"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_booking_history_gantt111
+msgid "Booking Details"
+msgstr "Detalles de reserva"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_hotel_room_booking_history_tree
+#: model:ir.ui.menu,name:hotel_management.menu_hotel_room_booking_history_tree
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_room_form_inherit_rentalss
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_booking_history_form1
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_booking_history_tree1
+msgid "Booking History"
+msgstr "Historia de reserva"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__booking_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__booking_id
+msgid "Booking Ref"
+msgstr "Ref reserva"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__book_id
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest
+msgid "Booking Ref."
+msgstr "Ref reserva."
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_updatable
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_updatable
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_updatable
+msgid "Can Edit Product"
+msgstr "Puede editar el producto"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_tables__state__canceled
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room_booking_history__state__cancle
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__state__cancel
+#: model_terms:ir.ui.view,arch_db:hotel_management.advance_payment_wizard1
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest_wizard_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.deposit_journal_entry_wizard1
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_wizard_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupancy_wizard_id
+#: model_terms:ir.ui.view,arch_db:hotel_management.room_guest_wizard_view_new
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_folio_invoice_transfer_wizard
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_rr_housekeeping_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+msgid "Cancel Reservation"
+msgstr "Cancelar Reservación"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_cancel_foilo_wizard
+msgid "Cancel Wizard"
+msgstr "Cancelar Wizard"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__agent_commission_invoice__state__cancel
+msgid "Canceled"
+msgstr "Cancelado"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_reservation__state__cancel
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_order__state__cancel
+#: model:ir.model.fields.selection,name:hotel_management.selection__sale_order__state__cancel
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_tables__capacity
+msgid "Capacity"
+msgstr "Capacidad"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_uom_category_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_uom_category_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_uom_category_id
+msgid "Category"
+msgstr "Categoría"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.roomwise_guestwise_report_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_booking_history_search
+msgid "Check In"
+msgstr ""
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__check_in_date
+msgid "Check In Date"
+msgstr "Comprobar en la fecha"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.roomwise_guestwise_report_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_booking_history_search
+msgid "Check Out"
+msgstr "Verificar"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__check_out_date
+msgid "Check Out Date"
+msgstr "Echa un vistazo a la fecha"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__check_in
+msgid "CheckIn Date"
+msgstr "Checkin Fecha"
+
+#. module: hotel_management
+#: model:ir.actions.report,name:hotel_management.hotel_checkin_details_report
+msgid "CheckIn Detail"
+msgstr "Detalle de registro"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkin_report
+msgid "CheckIn Guest List"
+msgstr "Lista de invitados"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_wizard_view
+msgid "CheckIn List"
+msgstr "Lista de registro"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__sale_order__state__check_out
+msgid "CheckOut"
+msgstr "Verificar"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__check_out
+msgid "CheckOut Date"
+msgstr "Checkout Fecha"
+
+#. module: hotel_management
+#: model:ir.actions.report,name:hotel_management.hotel_checkout_details_report
+msgid "CheckOut Detail"
+msgstr "Detalle de pago"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_wizard_view
+msgid "CheckOut List"
+msgstr "Lista de salida"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__checkin
+msgid "Checkin Date"
+msgstr "Checkin Fecha"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+msgid "Checkout"
+msgstr "Verificar"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.checkout_configuration_action
+#: model:ir.model,name:hotel_management.model_checkout_configuration
+#: model_terms:ir.ui.view,arch_db:hotel_management.checkout_configuration_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.checkout_configuration_tree
+msgid "Checkout Configuration"
+msgstr "Checkout Configuración"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__checkout
+msgid "Checkout Date"
+msgstr "Echa un vistazo a la fecha"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_checkout_report
+msgid "Checkout Guest List"
+msgstr "Lista de invitados"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.checkout_configuration_form
+msgid "Checkout Info"
+msgstr "Información de pago"
+
+#. module: hotel_management
+#: model:ir.ui.menu,name:hotel_management.checkout_configuration
+msgid "Checkout Policy"
+msgstr "Checkout Póliza"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration__name
+msgid "Checkout Time"
+msgstr "Hora de salida"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__childs
+msgid "Children"
+msgstr "Niños"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_id_master
+msgid "Clients ID details"
+msgstr "Detalles ID clientes"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_resv_id_details
+msgid "Clients ID details during reservation"
+msgstr "Detalles ID clientes durante Reservación"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__agent_comm
+msgid "Commision"
+msgstr "Comisión"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__commission_percentage
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__commission_percentage
+msgid "Commission %"
+msgstr "Comisión %"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__commission_amt
+#: model_terms:ir.ui.view,arch_db:hotel_management.agent_commission_invoic_form_view1
+msgid "Commission Amount"
+msgstr "comisión Importe"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__commission_line_id
+msgid "Commission ID"
+msgstr "comisión ID"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.agent_commission_invoic_form_view1
+msgid "Commission Line"
+msgstr "comisión Linea"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_res_partner__commission
+#: model:ir.model.fields,field_description:hotel_management.field_res_users__commission
+msgid "Commission Percentage"
+msgstr "comisión Porcentaje"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_menucard__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_kitchen_order_tickets__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_reservation__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_tables__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__company_id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration__company_name
+msgid "Company Name"
+msgstr "Nombre Compañía"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__complaint
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__complaint
+msgid "Complaint"
+msgstr "Queja"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_reservation__state__confirm
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room_booking_history__state__confirm
+#: model:ir.model.fields.selection,name:hotel_management.selection__issue_material_details__state__confirm
+#: model_terms:ir.ui.view,arch_db:hotel_management.agent_commission_invoic_form_view1
+#: model_terms:ir.ui.view,arch_db:hotel_management.cancel_foilo_wizard_form_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_issue_material_details_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_rr_housekeeping_form
+msgid "Confirm"
+msgstr "confirme"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__agent_commission_invoice__state__confirm
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_order__state__confirm
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_tables__state__confirmed
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__state__confirmed
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_laundry_line__product_uom_category_id
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_transport_line__product_uom_category_id
+#: model:ir.model.fields,help:hotel_management.field_hotel_food_line__product_uom_category_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__country_id
+msgid "Country"
+msgstr "Pais"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_coupon_coupon
+msgid "Coupon"
+msgstr "Cupón"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+msgid "Create Folio"
+msgstr "Crear Folio"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.agent_commission_invoic_form_view1
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_folio_invoice_transfer_wizard
+msgid "Create Invoice"
+msgstr "Crear factura"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.deposit_journal_entry_wizard1
+msgid "Create Journal Entry"
+msgstr "Crear entrada de diario"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_arrival_dept_guest_wizard__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_cancel_foilo_wizard__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_dashboard_url__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_folio_invoice_transfer_wizard__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_wizard__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_id_master__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_monthly_occupancy_wizard__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_room_guestwise_wizard__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line_wizard__create_uid
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_arrival_dept_guest_wizard__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_cancel_foilo_wizard__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_dashboard_url__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_folio_invoice_transfer_wizard__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_wizard__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_id_master__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_monthly_occupancy_wizard__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_room_guestwise_wizard__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line_wizard__create_date
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_wizard__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_account_move__create_date
+msgid "Creation Date"
+msgstr "Fecha de creación"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_res_currency
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__currency_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__currency_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__currency_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__currency_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__checkout_configuration__name__custom
+msgid "Custom"
+msgstr "A medida"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration__time
+msgid "Custom Time"
+msgstr "Hora a medida"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_custom_attribute_value_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_custom_attribute_value_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_custom_attribute_value_ids
+msgid "Custom Values"
+msgstr "Valores personalizados"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__partner_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__order_partner_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__order_partner_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__order_partner_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__partner_id
+msgid "Customer"
+msgstr "cliente"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__arrival_dept_guest_wizard__arrival_dept__arrival
+msgid "Customer Arrival"
+msgstr "Llegada del cliente"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_arrival_dept_guest_wizard
+#: model:ir.ui.menu,name:hotel_management.menu_action_arrival_dept_guest_wizard_id
+msgid "Customer Arrival/ Departure List"
+msgstr "Lista de llegadas/salidas de clientes"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__arrival_dept_guest_wizard__arrival_dept__depart
+msgid "Customer Departure"
+msgstr "Salida del cliente"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__partner_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_reservation__cname
+msgid "Customer Name"
+msgstr "Nombre cliente"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__access_url
+msgid "Customer Portal URL"
+msgstr "URL del portal del cliente"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_arrival_dept_guest_wizard
+msgid "Daily Customer Arrival/ Departure List"
+msgstr "Lista diaria de llegadas/salidas de clientes"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_dashboard_url__url
+#: model_terms:ir.ui.view,arch_db:hotel_management.dashboard_url_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.dashboard_url_tree
+msgid "Dashboard URL"
+msgstr "URL del panel"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.dashboard_url_configuration_action
+msgid "Dashboard URL Configuration"
+msgstr "Configuración de la URL del panel"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.database_configuration_action
+#: model:ir.model,name:hotel_management.model_database_configuration
+#: model:ir.ui.menu,name:hotel_management.database_configuration_submenu
+#: model_terms:ir.ui.view,arch_db:hotel_management.database_configuration_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.database_configuration_tree
+msgid "Database Configuration"
+msgstr "Configuración base de datos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration__name
+msgid "Database Name"
+msgstr "Nombre base de datos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__current_date
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupency_report_view
+msgid "Date"
+msgstr "Fecha"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__date_order
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__date
+msgid "Date Ordered"
+msgstr "Fecha ordenada"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__date_birth
+msgid "Date of Birth"
+msgstr "Fecha de nacimiento"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__qty_delivered_manual
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__qty_delivered_manual
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__qty_delivered_manual
+msgid "Delivered Manually"
+msgstr "Entregado manualmente"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__qty_delivered
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__qty_delivered
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__qty_delivered
+msgid "Delivered Quantity"
+msgstr "Cantidad entregada"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest
+msgid "Departure Time"
+msgstr "Hora de salida"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__deposit_recv_acc
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__deposit_recv_acc
+msgid "Deposit Account"
+msgstr "Cuenta de Deposito"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.act_deposit_journal_entry1
+msgid "Deposit Journal Entry"
+msgstr "Asiento de diario de depósito"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "Deposit amount entry"
+msgstr "Entrada del monto del depósito"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_deposit_journal_entry_wizard1
+msgid "Deposit_journal_entry Detail Wizard"
+msgstr "Asistente de detalle de entrada de diario de depósito"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_cancel_foilo_wizard__desc
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__name
+msgid "Description"
+msgstr "Descripciones"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material__location_dest_id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__dest_locatiion
+msgid "Destination Location"
+msgstr "Localización  de destino"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_reservation__via__direct
+msgid "Direct"
+msgstr "Directo"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__discount
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__discount
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__discount
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__discount
+msgid "Discount (%)"
+msgstr "Descuento (%)"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "Discount: %(program)s - On product with following taxes: %(taxes)s"
+msgstr "Descuento: %(programa)s - Sobre producto con los siguientes impuestos: %(impuestos)s"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "Discount: %s"
+msgstr "Descuento: %s"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_account_move__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_account_payment__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_arrival_dept_guest_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_cancel_foilo_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_coupon_coupon__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_dashboard_url__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_folio_invoice_transfer_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_line__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_menucard__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_kitchen_order_tickets__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_reservation__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_tables__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_service_line__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_id_master__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_monthly_occupancy_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_product_template__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_arrival_dept_guest__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_report_view__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_checkin_report__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_checkout_report__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_report__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_room_report__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_monthly_occupency_report_view__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_roomwise_guestwise_report_view__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_res_currency__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_res_partner__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_room_guestwise_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_wizard__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:hotel_management.field_sale_shop__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__display_qty_widget
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__display_qty_widget
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__display_qty_widget
+msgid "Display Qty Widget"
+msgstr "Mostrar widget de cantidad"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__display_type
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__display_type
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__display_type
+msgid "Display Type"
+msgstr "Tipo de visualización"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__client_id
+msgid "Document Type"
+msgstr "Tipo de Documento"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__agent_commission_invoice__state__done
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_reservation__state__done
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_order__state__done
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room_booking_history__state__done
+#: model:ir.model.fields.selection,name:hotel_management.selection__issue_material_details__state__done
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__state__done
+#: model:ir.model.fields.selection,name:hotel_management.selection__sale_order__state__done
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_issue_material_details_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_rr_housekeeping_form
+msgid "Done"
+msgstr "Hecho"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_laundry_line__is_downpayment
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_transport_line__is_downpayment
+#: model:ir.model.fields,help:hotel_management.field_hotel_food_line__is_downpayment
+msgid ""
+"Down payments are made when creating invoices from a sales order. They are "
+"not copied when duplicating a sales order."
+msgstr ""
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__agent_commission_invoice__state__draft
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_reservation__state__draft
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_order__state__draft
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_tables__state__draft
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room_booking_history__state__draft
+#: model:ir.model.fields.selection,name:hotel_management.selection__issue_material_details__state__draft
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__state__draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__dummy
+msgid "Dummy"
+msgstr "Simulado"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "Duration"
+msgstr "Duración"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_tables__state__edit
+msgid "Edit"
+msgstr "Editar"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "Error !"
+msgstr "Error !"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__name
+msgid "Event type"
+msgstr "Tipo Evento"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_account_bank_statement_line__exchange_rate
+#: model:ir.model.fields,field_description:hotel_management.field_account_move__exchange_rate
+#: model:ir.model.fields,field_description:hotel_management.field_account_payment__exchange_rate
+msgid "Exchange Rate"
+msgstr "Tipo de cambio"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__recv_acc
+msgid "Expense Account"
+msgstr "Cuenta de gastos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_no_variant_attribute_value_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_no_variant_attribute_value_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_no_variant_attribute_value_ids
+msgid "Extra Values"
+msgstr "Valores adicionales"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_resv_id_details__gender__f
+msgid "Female"
+msgstr "Mujer"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupancy_wizard_id
+#: model_terms:ir.ui.view,arch_db:hotel_management.room_guest_wizard_view_new
+msgid "Fill The Dates"
+msgstr "llenar las fechas"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest_wizard_view
+msgid "Fill The Details"
+msgstr "Llene los detalles"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__fiscal_position_id
+msgid "Fiscal Position"
+msgstr "Posición Fiscal"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__fiscal_position_id
+msgid ""
+"Fiscal positions are used to adapt taxes and accounts for particular "
+"customers or sales orders/invoices.The default value comes from the "
+"customer."
+msgstr ""
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__flag1
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__flag
+msgid "Flag"
+msgstr "Bandera"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__folio_id
+msgid "Folio"
+msgstr "FOL"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__folio_count
+msgid "Folio Count"
+msgstr "Recuento de folios"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__folio_id
+msgid "Folio Id"
+msgstr "ID de folio"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_folio_invoice_transfer_wizard__folio_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__laundry_line_ids
+msgid "Folio Ref"
+msgstr "Referencia de folio"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_folio_invoice_transfer_wizard
+msgid "Folio invoice transfer Wizard"
+msgstr "Asistente de transferencia de facturas de folio"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__folio_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__folio_id
+msgid "Folio ref"
+msgstr "Referencia del folio"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_hotel_folio_calendar_view
+msgid "Folios"
+msgstr "Folios"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_follower_ids
+msgid "Followers"
+msgstr "Seguidoras"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icono de fuente impresionante, p. fa-tareas"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+msgid "Food Line"
+msgstr "Linea de Alimentos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__food_lines
+msgid "Food Lines"
+msgstr "Líneas de alimentos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__forecast_expected_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__forecast_expected_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__forecast_expected_date
+msgid "Forecast Expected Date"
+msgstr "Pronóstico Fecha esperada"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "Free Product"
+msgstr "Producto gratis"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__free_qty_today
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__free_qty_today
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__free_qty_today
+msgid "Free Qty Today"
+msgstr "Cantidad gratis hoy"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_arrival_dept_guest_wizard__date_start
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_wizard__date_start
+#: model:ir.model.fields,field_description:hotel_management.field_monthly_occupancy_wizard__start_date
+#: model:ir.model.fields,field_description:hotel_management.field_room_guestwise_wizard__date_start
+msgid "From Date"
+msgstr "Partir de la fecha"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "From Date:"
+msgstr "Partir de la fecha:"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__gds_id
+msgid "GDS ID"
+msgstr "ID de GDS"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__gender
+msgid "Gender"
+msgstr "Sexo"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_order_form_inherit1
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_restaurant_order_form_inherit_pragtech
+msgid "Generate KOT/BOT"
+msgstr "Generar KOT/BOT"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__source__guest
+msgid "Guest"
+msgstr "Huésped"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__partner_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__partner_name
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest
+#: model_terms:ir.ui.view,arch_db:hotel_management.roomwise_guestwise_report_view
+msgid "Guest Name"
+msgstr "Nombre Huésped"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__show_update_pricelist
+msgid "Has Pricelist Changed"
+msgstr "Ha cambiado la lista de precios"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.agent_commission_invoic_form_view1
+msgid "History"
+msgstr "Historia"
+
+#. module: hotel_management
+#: model:ir.actions.report,name:hotel_management.report_hotel_folio1
+msgid "Hotel Boarding Invoice"
+msgstr "Factura de hospedaje de hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_folio
+msgid "Hotel Folio Inherit Adding POS ORDER TABS"
+msgstr "Hotel Folio Inherit Adición de PESTAÑAS DE PEDIDO DE POS"
+
+#. module: hotel_management
+#: model:ir.ui.menu,name:hotel_management.hotel_management_reporting_analysis_menu
+msgid "Hotel Management"
+msgstr "Gestión hotelera"
+
+#. module: hotel_management
+#: model:res.groups,name:hotel_management.group_hotel_reservation_user
+msgid "Hotel Management / Reseravation User"
+msgstr "Gestión hotelera / usuario Reservación"
+
+#. module: hotel_management
+#: model:res.groups,name:hotel_management.group_restaurant_bot_user
+msgid "Hotel Management / Restaurant BOT User"
+msgstr "Gestión hotelera / Restaurante BOT Usuario"
+
+#. module: hotel_management
+#: model:res.groups,name:hotel_management.group_restaurant_kot_user
+msgid "Hotel Management / Restaurant KOT User"
+msgstr "Gestión hotelera / Restaurante KOT Usuario"
+
+#. module: hotel_management
+#: model:res.groups,name:hotel_management.group_restaurant_user
+msgid "Hotel Management / Restaurant User"
+msgstr "Gestión hotelera / Restaurante Usuario"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.res_config_settings_view_form
+msgid "Hotel Management Confriguration"
+msgstr "Configuración de Gestión Hotelera"
+
+#. module: hotel_management
+#: model:res.groups,name:hotel_management.group_hotel_reservation_manager
+msgid "Hotel Management/ Reseravation Manager"
+msgstr "Gestión hotelera/ Gerente Reservación"
+
+#. module: hotel_management
+#: model:res.groups,name:hotel_management.group_restaurant_manager
+msgid "Hotel Management/ Restaurant Manager"
+msgstr "Gestión hotelera/ Gerente Reservación"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_menucard
+msgid "Hotel Menucard Inherit Adding Point_of_sale category"
+msgstr "Hotel Menucard Heredar Agregando la categoría Point_of_sale"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_res_partner__reservation_warn
+#: model:ir.model.fields,field_description:hotel_management.field_res_users__reservation_warn
+msgid "Hotel Reservation"
+msgstr "Reservación de hotel"
+
+#. module: hotel_management
+#: model:ir.actions.server,name:hotel_management.web_hotel_reservation_draft_deletion_ir_actions_server
+#: model:ir.cron,cron_name:hotel_management.web_hotel_reservation_draft_deletion
+#: model:ir.cron,name:hotel_management.web_hotel_reservation_draft_deletion
+msgid "Hotel Reservation Draft"
+msgstr "Proyecto de reserva de hotel"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_hotel_reservation_wizard
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_wizard_view
+msgid "Hotel Reservation Report"
+msgstr "Informe de reserva de hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_room_booking_history
+msgid "Hotel Room Booking History"
+msgstr "Historial de reservas de habitaciones de hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_reservation_wizard
+msgid "Hotel reservation Wizard"
+msgstr "Asistente de reserva de hotel"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__rr_line_id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line_wizard__rr_line_id
+msgid "Housekeeping line id"
+msgstr "Servico de limpieza Línea id"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_account_move__id
+#: model:ir.model.fields,field_description:hotel_management.field_account_payment__id
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__id
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__id
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__id
+#: model:ir.model.fields,field_description:hotel_management.field_arrival_dept_guest_wizard__id
+#: model:ir.model.fields,field_description:hotel_management.field_cancel_foilo_wizard__id
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration__id
+#: model:ir.model.fields,field_description:hotel_management.field_coupon_coupon__id
+#: model:ir.model.fields,field_description:hotel_management.field_dashboard_url__id
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration__id
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__id
+#: model:ir.model.fields,field_description:hotel_management.field_folio_invoice_transfer_wizard__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_line__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_menucard__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_wizard__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_kitchen_order_tickets__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_reservation__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_tables__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_service_line__id
+#: model:ir.model.fields,field_description:hotel_management.field_id_master__id
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material__id
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__id
+#: model:ir.model.fields,field_description:hotel_management.field_monthly_occupancy_wizard__id
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line__id
+#: model:ir.model.fields,field_description:hotel_management.field_product_template__id
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_arrival_dept_guest__id
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_report_view__id
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_checkin_report__id
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_checkout_report__id
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_report__id
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_room_report__id
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_monthly_occupency_report_view__id
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_roomwise_guestwise_report_view__id
+#: model:ir.model.fields,field_description:hotel_management.field_res_config_settings__id
+#: model:ir.model.fields,field_description:hotel_management.field_res_currency__id
+#: model:ir.model.fields,field_description:hotel_management.field_res_partner__id
+#: model:ir.model.fields,field_description:hotel_management.field_room_guestwise_wizard__id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line_wizard__id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_wizard__id
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order__id
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order_line__id
+#: model:ir.model.fields,field_description:hotel_management.field_sale_shop__id
+msgid "ID"
+msgstr "Id"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__name
+msgid "ID Card Number"
+msgstr "Numero de la tarjeta de identificacion"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_id_master__id_code
+msgid "ID Code"
+msgstr "Código de identificación"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+msgid "ID Details"
+msgstr "Detalles ID"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__id_line_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__id_line_ids
+msgid "ID Line"
+msgstr "D Línea"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.id_master_action
+#: model:ir.ui.menu,name:hotel_management.id_master_submenu
+#: model_terms:ir.ui.view,arch_db:hotel_management.id_master_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.id_master_tree
+msgid "ID Master"
+msgstr "maestro de identificación"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_id_master__name
+msgid "ID Name"
+msgstr "ID nombre"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icono para indicar una actividad de excepción."
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_resv_id_details_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_resv_id_details_tree
+msgid "Identification Details"
+msgstr "Detalles Identificación"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__message_needaction
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, los nuevos mensajes requieren su atención."
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__message_has_error
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/agent_commission.py:0
+#, python-format
+msgid ""
+"If you change the pricelist of this Commission (and eventually the "
+"currency), prices of existing commission lines will not be updated."
+msgstr ""
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid ""
+"If you change the pricelist of this order (and eventually the currency), "
+"prices of existing order lines will not be updated."
+msgstr ""
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_sale_shop__shop_img
+msgid "Image"
+msgstr "Imagen"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__sale_order__state__progress
+msgid "In Progress"
+msgstr "En proceso"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_reservation_order
+msgid "Includes Hotel Reservation order"
+msgstr "Incluye orden de Reserva de Hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_restaurant_kitchen_order_tickets
+#: model:ir.model,name:hotel_management.model_hotel_restaurant_order
+msgid "Includes Hotel Restaurant Order"
+msgstr "Incluye pedido del restaurante del hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_restaurant_reservation
+msgid "Includes Hotel Restaurant Reservation"
+msgstr "Incluye reserva en el restaurante del hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_restaurant_tables
+msgid "Includes Hotel Restaurant Table"
+msgstr "Incluye mesa en el restaurante del hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_restaurant_order_list
+msgid "Inherits Hotel Restaurant Order"
+msgstr "Hereda la orden del restaurante del hotel"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__assign_to__intern
+msgid "Internal"
+msgstr "Interno"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__source__intern
+msgid "Internal Observation"
+msgstr "Observación Interna"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_reservation__source__internal_reservation
+msgid "Internal Reservation"
+msgstr "Reservación Interna"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_account_move
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__commission_line
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__invoice_lines
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__invoice_lines
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__invoice_lines
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+msgid "Invoice Lines"
+msgstr "Líneas factura"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__invoice_status
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__invoice_status
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__invoice_status
+msgid "Invoice Status"
+msgstr "Estado de la factura"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__invoiced
+#: model:ir.model.fields.selection,name:hotel_management.selection__agent_commission_invoice__state__invoiced
+msgid "Invoiced"
+msgstr "Facturado"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__qty_invoiced
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__qty_invoiced
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__qty_invoiced
+msgid "Invoiced Quantity"
+msgstr "Cantidad facturada"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__folio_ids
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_h_activity__is_booking_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_menucard__is_booking_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room__is_booking_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_amenities__is_booking_date
+#: model:ir.model.fields,field_description:hotel_management.field_product_product__is_booking_date
+#: model:ir.model.fields,field_description:hotel_management.field_product_template__is_booking_date
+msgid "Is Booking Date Applicable"
+msgstr "¿Se aplica la fecha de reserva?"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.roomwise_guestwise_report_view
+msgid "Is Checkin"
+msgstr "está registrando"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.roomwise_guestwise_report_view
+msgid "Is Checkout"
+msgstr "es pago"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_is_follower
+msgid "Is Follower"
+msgstr "Es seguidor"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__is_mto
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__is_mto
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__is_mto
+msgid "Is Mto"
+msgstr "es mto"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__is_downpayment
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__is_downpayment
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__is_downpayment
+msgid "Is a down payment"
+msgstr "es un pago inicial"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__is_expense
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__is_expense
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__is_expense
+msgid "Is expense"
+msgstr "es gasto"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_laundry_line__is_expense
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_transport_line__is_expense
+#: model:ir.model.fields,help:hotel_management.field_hotel_food_line__is_expense
+msgid ""
+"Is true if the sales order line comes from an expense or a vendor bills"
+msgstr ""
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_issue_material1
+msgid "Issue"
+msgstr "Asunto"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_issue_material
+#: model:ir.actions.act_window,name:hotel_management.open_issue_material_details_tree_new1
+#: model:ir.model,name:hotel_management.model_issue_material
+#: model:ir.ui.menu,name:hotel_management.menu_open_issue_material_details_new1
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_issue_material_details_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_issue_material_details_tree
+msgid "Issue Material"
+msgstr "Expedir Material"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_issue_material_details
+msgid "Issue Material Details"
+msgstr "Expedir detalles de material"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__name
+msgid "Issue Slip"
+msgstr "Comprobante de Expedición"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__issuing_auth
+msgid "Issuing Authority"
+msgstr "Autoridad expedida"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list__product_id
+msgid "Item Name"
+msgstr "Nombre articulo"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__journal_id
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__journal_id
+msgid "Journal"
+msgstr "diario"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_menucard__product_nature__kot
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_kitchen_order_tickets__product_nature__kot
+#: model:ir.model.fields.selection,name:hotel_management.selection__product_template__product_nature__kot
+#: model:ir.ui.menu,name:hotel_management.menu_view_hotel_restaurant_kitchen_order_tickets_inherit
+msgid "KOT"
+msgstr "KOT"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_restaurant_kitchen_order_tickets_tree
+msgid "KOT List"
+msgstr "Lista KOT"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.open_view_hotel_restaurant_kitchen_order_tickets_form_tree
+msgid "KOT Order List"
+msgstr "KOT Lista pedido"
+
+#. module: hotel_management
+#: model:ir.actions.report,name:hotel_management.hotel_reservation_order_kot
+msgid "Kitchen Order Ticket"
+msgstr "Kitchen Order Ticket(Billete de pedido de la Cocina)"
+
+#. module: hotel_management
+#: model:ir.actions.report,name:hotel_management.hotel_res_order_kot
+msgid "Kitchen Order Tickets"
+msgstr "Kitchen Order Ticket(Billete de pedido de la Cocina)"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_account_move____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_account_payment____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_arrival_dept_guest_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_cancel_foilo_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_coupon_coupon____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_dashboard_url____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_folio_invoice_transfer_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_line____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_menucard____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_kitchen_order_tickets____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_reservation____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_tables____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_service_line____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_id_master____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_monthly_occupancy_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_product_template____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_arrival_dept_guest____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_report_view____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_checkin_report____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_checkout_report____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_report____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_hotel_reservation_room_report____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_monthly_occupency_report_view____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_report_hotel_management_roomwise_guestwise_report_view____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_res_currency____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_res_partner____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_room_guestwise_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_wizard____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order_line____last_update
+#: model:ir.model.fields,field_description:hotel_management.field_sale_shop____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_arrival_dept_guest_wizard__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_cancel_foilo_wizard__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_dashboard_url__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_folio_invoice_transfer_wizard__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_wizard__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_id_master__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_monthly_occupancy_wizard__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_room_guestwise_wizard__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line_wizard__write_uid
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_arrival_dept_guest_wizard__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_cancel_foilo_wizard__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_dashboard_url__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_folio_invoice_transfer_wizard__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_wizard__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_id_master__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_monthly_occupancy_wizard__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_room_guestwise_wizard__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line_wizard__write_date
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_wizard__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "Laundry"
+msgstr "Lavandería"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__laundry_invoice_ids
+msgid "Laundry Related Invoices"
+msgstr "Facturas relacionadas con Lavandería"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+msgid "Laundry Related invoices"
+msgstr "Facturas relacionadas con Lavandería"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__customer_lead
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__customer_lead
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__customer_lead
+msgid "Lead Time"
+msgstr "Tiempo de espera"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__line_id
+msgid "Line"
+msgstr "Línea"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_res_partner__login_password
+#: model:ir.model.fields,field_description:hotel_management.field_res_users__login_password
+msgid "Login Password"
+msgstr "Contraseña de inicio de sesión"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Archivo adjunto principal"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_resv_id_details__gender__m
+msgid "Male"
+msgstr "Masculino"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+msgid "Manual Description"
+msgstr "Descripción manual"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__info_id
+msgid "Material Id"
+msgstr "identificación del material"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_issue_material1
+msgid "Material Issue"
+msgstr "Expedir material"
+
+#. module: hotel_management
+#: model:ir.actions.report,name:hotel_management.max_hotel_room_report
+msgid "Max Room Detail"
+msgstr "Detalle máximo de la habitación"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_has_error
+msgid "Message Delivery error"
+msgstr "Mensaje de error de entrega"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_res_partner__reservation_msg
+#: model:ir.model.fields,field_description:hotel_management.field_res_users__reservation_msg
+msgid "Message for Hotel Reservation"
+msgstr "Mensaje para reserva de hotel"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__qty_delivered_method
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__qty_delivered_method
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__qty_delivered_method
+msgid "Method to update delivered qty"
+msgstr "Método para actualizar la cantidad entregada"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_monthly_occupancy_wizard_report
+#: model:ir.actions.report,name:hotel_management.monthly_occupency_qweb
+#: model:ir.ui.menu,name:hotel_management.menu_action_monthly_occupancy_report
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupency_report_view
+msgid "Monthly Occupancy Report"
+msgstr "Informe de ocupación mensual"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Fecha límite de mi actividad"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest_wizard_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupancy_wizard_id
+#: model_terms:ir.ui.view,arch_db:hotel_management.room_guest_wizard_view_new
+msgid "My Button"
+msgstr "mi boton"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_shop_form_inherit
+msgid "Name"
+msgstr "nombre"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__name
+msgid "Name Inv Lines"
+msgstr "Nombre de líneas de inversión"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "Net Amt("
+msgstr "Importe neto("
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "New"
+msgstr "Nuevo"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Fecha límite de la próxima actividad"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la siguiente actividad"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__activity_type_id
+msgid "Next Activity Type"
+msgstr "Siguiente tipo de actividad"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.cancel_foilo_wizard_form_view
+msgid "No"
+msgstr "No"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__res_partner__reservation_warn__no-message
+msgid "No Message"
+msgstr "Sin mensaje"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__note
+msgid "Note"
+msgstr "Nota"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__number_of_days
+msgid "Number Of Days"
+msgstr "Numero de Días"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__number_of_rooms
+msgid "Number Of Rooms"
+msgstr "Numero de Habitaciones"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_laundry_line__customer_lead
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_transport_line__customer_lead
+#: model:ir.model.fields,help:hotel_management.field_hotel_food_line__customer_lead
+msgid ""
+"Number of days between the order confirmation and the shipping of the "
+"products to the customer"
+msgstr ""
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leídos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__generated_coupon_ids
+msgid "Offered Coupons"
+msgstr "Cupones ofrecidos"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_restaurant_order__state__order
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_restaurant_order_filter_inherit
+msgid "Order Done"
+msgstr "Pedido Hecho"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_restaurant_kitchen_order_tickets_form_inheritance
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_restaurant_reservation_form_inherit1
+msgid "Order List"
+msgstr "Lista pedido"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__order_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__order_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__order_id
+msgid "Order Reference"
+msgstr "Pedir Referencia"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__state
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order__state
+msgid "Order State"
+msgstr "Estado del pedido"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__state
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__state
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__state
+msgid "Order Status"
+msgstr "Estado del pedido"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_packaging
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_packaging
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_packaging
+msgid "Package"
+msgstr "Paquete"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.agent_commission_invoic_form_view1
+msgid "Paid"
+msgstr "Pagado"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_res_partner
+msgid "Partner"
+msgstr "Compañero"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__partner_id
+msgid "Partner Name"
+msgstr "Nombre de Compañero"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration__password
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.advance_payment_wizard1
+msgid "Payment"
+msgstr "Pago"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__payment_date
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__payment_date
+msgid "Payment Date"
+msgstr "Fecha de pago"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__account_move_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__account_move_ids
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order__account_move_ids
+msgid "Payment Details"
+msgstr "Detalles del pago"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupency_report_view
+msgid "Percentage"
+msgstr "Porcentaje"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_issue_material1
+msgid "Plz choose the Warehouse Location"
+msgstr "Por favor, elija la ubicación del almacén"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__access_url
+msgid "Portal Access URL"
+msgstr "URL de acceso al portal"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_sale_order_line
+msgid "Preparing Sale order Line"
+msgstr "Preparando línea de orden de venta"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__price
+msgid "Price"
+msgstr "Precio"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__price_reduce
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__price_reduce
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__price_reduce
+msgid "Price Reduce"
+msgstr "Precio Reducir"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__price_reduce_taxexcl
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__price_reduce_taxexcl
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__price_reduce_taxexcl
+msgid "Price Reduce Tax excl"
+msgstr "Precio Reducir Impuestos excl"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__price_reduce_taxinc
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__price_reduce_taxinc
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__price_reduce_taxinc
+msgid "Price Reduce Tax inc"
+msgstr "Precio Reducir Impuesto incl."
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__pricelist_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__pricelist_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__pricelist_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_kitchen_order_tickets__pricelist_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__pricelist_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_reservation__pricelist_id
+msgid "Pricelist"
+msgstr "Lista de precios"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/agent_commission.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "Pricelist Warning!"
+msgstr "¡Advertencia de lista de precios!"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest_wizard_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupancy_wizard_id
+#: model_terms:ir.ui.view,arch_db:hotel_management.room_guest_wizard_view_new
+msgid "Print Report"
+msgstr "Imprimir reporte"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_id
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line__product_product_id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__product_line_ids
+msgid "Product Details"
+msgstr "Detalles de producto"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__product_id
+msgid "Product ID"
+msgstr "ID del Producto"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__name
+msgid "Product Name"
+msgstr "nombre del producto"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_h_activity__product_nature
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_menucard__product_nature
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_kitchen_order_tickets__product_nature
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room__product_nature
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_amenities__product_nature
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_services__product_nature
+#: model:ir.model.fields,field_description:hotel_management.field_product_product__product_nature
+#: model:ir.model.fields,field_description:hotel_management.field_product_template__product_nature
+msgid "Product Nature"
+msgstr "Naturaleza del producto"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__repair_ids
+msgid "Product Replacement info"
+msgstr "Información de reemplazo del producto"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_issue_material_details_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_rr_housekeeping_form
+msgid "Product Requirement"
+msgstr "Requisito del producto"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_product_template
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_template_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_template_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_template_id
+msgid "Product Template"
+msgstr "Plantilla del Producto"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_type
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_type
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_type
+msgid "Product Type"
+msgstr "tipo de producto"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_uom_readonly
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_uom_readonly
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_uom_readonly
+msgid "Product Uom Readonly"
+msgstr "Producto Uom Solo lectura"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line__product_line_id
+msgid "Product line id"
+msgstr "ID de línea de producto"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "Product prices have been recomputed according to pricelist <b>%s<b> "
+msgstr "Los precios de los productos se han vuelto a calcular de acuerdo con la lista de precios <b>%s<b>"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__promo_code
+msgid "Promotion Code"
+msgstr "El código de promoción"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line__qty
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__qty
+msgid "Qty"
+msgstr "Cantidad"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__qty_available_today
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__qty_available_today
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__qty_available_today
+msgid "Qty Available Today"
+msgstr "Cantidad disponible hoy"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__qty_to_deliver
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__qty_to_deliver
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__qty_to_deliver
+msgid "Qty To Deliver"
+msgstr "Cantidad a entregar"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_uom_qty
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_uom_qty
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_uom_qty
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__sale_order__state__draft
+msgid "Quotation"
+msgstr "Cotización"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__sale_order__state__sent
+msgid "Quotation Sent"
+msgstr "Presupuesto enviado"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "Rate("
+msgstr "Tarifa"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_res_config_settings__remove_draft_web_reservation
+#: model_terms:ir.ui.view,arch_db:hotel_management.res_config_settings_view_form
+msgid "Remove Draft Web Reservation"
+msgstr "Quitar borrador de reserva web"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__activity__repair
+msgid "Repair"
+msgstr "Reparar"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_issue_material_details_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_rr_housekeeping_form
+msgid "Repair / Repalcement Info"
+msgstr "Reparar/ Info de reemplazo"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material__rr_line_ids
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__rr_line_ids
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_wizard__rr_line_ids
+msgid "Repair / Replacement Info"
+msgstr "Información de reparación/reemplazo"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_rr_housekeeping_form
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_rr_housekeeping_tree
+msgid "Repair Housekeeping"
+msgstr "Reparar Servico de limpieza"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__activity__replaced
+msgid "Replace"
+msgstr "Reemplazar"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_arrival_dept_guest_wizard__arrival_dept
+msgid "Report For"
+msgstr "Informe para"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest_wizard_view
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupancy_wizard_id
+#: model_terms:ir.ui.view,arch_db:hotel_management.room_guest_wizard_view_new
+msgid "Report Wizard"
+msgstr "Asistente para informes"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__name
+msgid "Req No"
+msgstr "Solicitud No"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__request_id
+msgid "Request Number"
+msgstr "Solicitud numero"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.open_rr_housekeeping_form_tree_new1
+#: model:ir.ui.menu,name:hotel_management.menu_open_rr_housekeeping_form_tree_new1
+msgid "Request for Repair / Replacement"
+msgstr "Solicitud para reparar/ Reemplazo"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__requested_by_partner
+msgid "Requested By "
+msgstr "Solicitado por"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__requested_by
+msgid "Requested By User"
+msgstr "Solicitado por el usuario"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.open_hotel_reservation_form_tree11
+#: model:ir.actions.report,name:hotel_management.action_report_hotel_reservation_document_pdf
+#: model:ir.model,name:hotel_management.model_hotel_reservation
+#: model:ir.ui.menu,name:hotel_management.main_menu_hotel_reservation_tree_all
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_graph
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_tree1
+msgid "Reservation"
+msgstr "Reservación"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "Reservation #"
+msgstr "Reserva #"
+
+#. module: hotel_management
+#: model:ir.actions.report,name:hotel_management.hotel_reservation_details_report
+msgid "Reservation Detail"
+msgstr "Detalle de la reserva"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__reservation_id
+msgid "Reservation Id"
+msgstr "Reservación Id"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_reservation_line
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__reservation_line
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_line_from
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_line_tree
+msgid "Reservation Line"
+msgstr "Reservación Línea"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_report
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_wizard_view
+msgid "Reservation List"
+msgstr "Lista de reservas"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__reservation_no
+msgid "Reservation No"
+msgstr "Reservación No"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_coupon_coupon__hotel_reservation_order_id
+#: model:ir.model.fields,field_description:hotel_management.field_coupon_coupon__reservation_order_id
+msgid "Reservation Order"
+msgstr "Orden de reserva"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_advance_payment_wizard__reservation_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__reservation_id
+msgid "Reservation Ref"
+msgstr "Reservación Ref"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__total_tax
+msgid "Reservation Tax"
+msgstr "Impuestos de Reservación"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__activity_user_id
+msgid "Responsible User"
+msgstr "Impuestos de Reservación"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "Restaurant"
+msgstr ""
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+msgid "Restaurant Lines"
+msgstr "Líneas de restaurante"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__rooms_ref
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__room_no
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_reservation__room_no
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__history_id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__room_no
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+#: model_terms:ir.ui.view,arch_db:hotel_management.roomwise_guestwise_report_view
+msgid "Room No"
+msgstr "Habitación No"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__rooms_ref1
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__room_number
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "Room Number"
+msgstr "Habitación numero"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "Room Rate("
+msgstr "Tarifa de Habitación"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room__room_folio_ids
+msgid "Room Rental History"
+msgstr "Historia de alquiler de Habitación"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__categ_id
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_line_from
+msgid "Room Type"
+msgstr "Habitación Tipo"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_room_report
+msgid "Room Usage Report"
+msgstr "Informe de uso de la habitación"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_wizard_view
+msgid "Room Used Maximum"
+msgstr "Máximo de uso de la habitación"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_room_guestwise_wizard_report
+#: model:ir.ui.menu,name:hotel_management.menu_action_room_guestwise_report
+#: model_terms:ir.ui.view,arch_db:hotel_management.roomwise_guestwise_report_view
+msgid "Room and Guestwise Report"
+msgstr "Informe de habitación y Guestwise"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_room_guestwise_wizard
+msgid "Room wise Guest wise Wizard"
+msgstr "Sabio de la habitación Mago sabio de los huéspedes"
+
+#. module: hotel_management
+#: model:ir.actions.report,name:hotel_management.roomwise_guestwise_qweb
+msgid "Roomwise and Guestwise"
+msgstr "Roomwise y Guestwise"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__route_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__route_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__route_id
+msgid "Route"
+msgstr "Ruta"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.arrival_dept_guest
+msgid "SN"
+msgstr "SN"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_sale_order
+msgid "Sale Order Inherit "
+msgstr "Heredar orden de venta"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.sale_view_order_tree1
+msgid "Sales Orders"
+msgstr "Ordenes de venta"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__salesman_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__salesman_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__salesman_id
+msgid "Salesperson"
+msgstr "Vendedor"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__scheduled_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__scheduled_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__scheduled_date
+msgid "Scheduled Date"
+msgstr "Cita agendada"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_booking_history_search
+msgid "Search Booking History"
+msgstr "Buscar Historia de Reservaciones"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__access_token
+msgid "Security Token"
+msgstr "Token de seguridad"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__sequence
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__sequence
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__sequence
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list__name
+msgid "Sequence"
+msgstr "secuencia"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_deposit_journal_entry_wizard1__service_cost
+msgid "Service Cost"
+msgstr "Costo del servicio"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_form1
+msgid "Set to Draft"
+msgstr "Establecer como borrador"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_checkout_configuration__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_h_activity__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_menucard__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_kitchen_order_tickets__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_reservation__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_tables__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_amenities__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_services__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_product_product__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_product_template__shop_id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__shop_id
+msgid "Shop"
+msgstr "Comercio"
+
+#. module: hotel_management
+#: model:ir.model.constraint,message:hotel_management.constraint_checkout_configuration_shop_id_uniq
+msgid "Shop must be unique !"
+msgstr "Comercio debe ser Único !"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__source
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__source
+msgid "Source"
+msgstr "Fuente"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material__location_id
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__source_locatiion
+msgid "Source Location"
+msgstr "Ubicación de origen"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__source_origin
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__source_origin
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__source_origin
+msgid "Source Origin"
+msgstr "Fuente Origen"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__state
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__state
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_tables__state
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__state
+#: model:ir.model.fields,field_description:hotel_management.field_issue_material_details__state
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping__state
+msgid "State"
+msgstr "Estado"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list__states
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+msgid "States"
+msgstr "Estado"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__state
+msgid "Status"
+msgstr "Estado"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__move_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__move_ids
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__move_ids
+msgid "Stock Moves"
+msgstr "Movimientos de existencias"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__sub_total1
+msgid "Sub Total"
+msgstr "Subtotal"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+msgid "Sub Total :"
+msgstr "Subtotal :"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__amount_subtotal
+msgid "SubTotal"
+msgstr "Subtotal"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__price_subtotal
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__price_subtotal
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__price_subtotal
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__amount_subtotal
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list__price_subtotal
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_tables__name
+msgid "Table number"
+msgstr "Mesa numero"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "Tariff"
+msgstr "Tarifa"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__amount_tax
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__amount_tax
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+msgid "Tax :"
+msgstr "Impuesto : "
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_reservation_line_from
+msgid "Tax On Product"
+msgstr "Impuesto sobre el producto"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__amount_tax
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__tax_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__tax_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__tax_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_line__taxes_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list__tax_id
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order__amount_tax
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_document_pdf
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_laundry_line__display_type
+#: model:ir.model.fields,help:hotel_management.field_hotel_folio_transport_line__display_type
+#: model:ir.model.fields,help:hotel_management.field_hotel_food_line__display_type
+msgid "Technical field for UX purpose."
+msgstr "Campo técnico para fines de UX."
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__total_tax
+msgid "The amount without tax."
+msgstr "La cantidad sin impuestos."
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "There is no expense account defined for this product: \"%s\" (id:%d)"
+msgstr "No hay cuenta de gastos definida para este producto: \"%s\" (id:%d)"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__rr_housekeeping__assign_to__third_party
+msgid "Third Party"
+msgstr "Parte tercera"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_sale_shop__shop_img
+msgid "This field holds the image for this shop, limited to 1024x1024px"
+msgstr "Este campo contiene la imagen de esta tienda, limitada a 1024x1024px"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_reservation__source__through_gds
+msgid "Through GDS"
+msgstr "A través de GDS"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__hotel_reservation__source__through_web
+msgid "Through Web"
+msgstr "A través de Web"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_wizard__date_end
+#: model:ir.model.fields,field_description:hotel_management.field_monthly_occupancy_wizard__end_date
+#: model:ir.model.fields,field_description:hotel_management.field_room_guestwise_wizard__date_end
+msgid "To Date"
+msgstr "Hasta la fecha"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__sale_order__state__sale
+msgid "To Invoice"
+msgstr "Para facturar"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__qty_to_invoice
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__qty_to_invoice
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__qty_to_invoice
+msgid "To Invoice Quantity"
+msgstr "Cantidad a facturar"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice__total_amt
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__amount_total
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__price_total
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__price_total
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__price_total
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__amount_total
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__amount_total
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order__amount_total
+msgid "Total"
+msgstr "total"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_reservation_order_bill11
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_restaurant_order_bill11
+msgid "Total :"
+msgstr "totales :"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__total_advance
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__total_advance
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order__total_advance
+msgid "Total Advance Payment"
+msgstr "Pago Anticipado Total"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "Total Amt("
+msgstr "Total importe("
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_agent_commission_invoice_line__tour_cost
+msgid "Total Cost"
+msgstr "Total Coste"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupency_report_view
+msgid "Total Gross"
+msgstr "Bruto total"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupency_report_view
+msgid "Total Laundry"
+msgstr "Lavandería Total"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__remaining_amt
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__remaining_amt
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order__remaining_amt
+msgid "Total Remaining Amount"
+msgstr "Monto restante total"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupency_report_view
+msgid "Total Rent"
+msgstr "Renta Total"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__total_cost1
+msgid "Total Reservation cost"
+msgstr "Total Reservación coste"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupency_report_view
+msgid "Total Rest"
+msgstr "Descanso Total"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupency_report_view
+msgid "Total Service"
+msgstr "Servicio total"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__price_tax
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__price_tax
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__price_tax
+#: model_terms:ir.ui.view,arch_db:hotel_management.monthly_occupency_report_view
+msgid "Total Tax"
+msgstr "Total impuestos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_folio_invoice_transfer_wizard__trans_folio_id
+msgid "Transfer Folio Ref"
+msgstr "Transferir referencia de folio"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_folio_invoice_transfer_wizard
+#: model_terms:ir.ui.view,arch_db:hotel_management.view_folio_invoice_transfer_wizard
+msgid "Transfer Invoice"
+msgstr "Transferir Factura"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__transfer_invoice_ids
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order__transfer_invoice_ids
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+msgid "Transfer Invoice Details"
+msgstr "Detalles de la factura de transferencia"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "Transport"
+msgstr "Transporte"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__transport_line_ids
+msgid "Transport Line"
+msgstr "Línea de transporte"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__transport_invoice_ids
+msgid "Transport Related Invoices"
+msgstr "Facturas relacionado con Transporte"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_state
+msgid "Transport Related invoices"
+msgstr "Facturas relacionado con Transporte"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción registrada."
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_product_product_line__uom
+#: model:ir.model.fields,field_description:hotel_management.field_rr_housekeeping_line__uom
+msgid "UOM"
+msgstr "unidad de medida"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__price_unit
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__price_unit
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__price_unit
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__product_uom
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__product_uom
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__product_uom
+msgid "Unit of Measure"
+msgstr "Unidad de medida"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes no leídos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes no leídos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio__amount_untaxed
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__untaxed_amt
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__amount_untaxed
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__amount_untaxed
+#: model:ir.model.fields,field_description:hotel_management.field_sale_order__amount_untaxed
+msgid "Untaxed Amount"
+msgstr "Base imponible"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__untaxed_amount_to_invoice
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__untaxed_amount_to_invoice
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__untaxed_amount_to_invoice
+msgid "Untaxed Amount To Invoice"
+msgstr "Importe no gravado a facturar"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__untaxed_amount_invoiced
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__untaxed_amount_invoiced
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__untaxed_amount_invoiced
+msgid "Untaxed Invoiced Amount"
+msgstr "Importe facturado no gravado"
+
+#. module: hotel_management
+#: model:ir.actions.server,name:hotel_management.update_reservation_room
+msgid "Update Reservation"
+msgstr "Actualizar reserva"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_folio_form_inherit_sale
+msgid "Update history"
+msgstr "(Actualizar Historia)"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_database_configuration__user_name
+msgid "User Name"
+msgstr "Nombre Usuario"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__valid_from
+msgid "Valid From"
+msgstr "Valido desde"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_resv_id_details__valid_to
+msgid "Valid To"
+msgstr "Valido hasta"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__via
+msgid "Via"
+msgstr "Vía"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__virtual_available_at_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__virtual_available_at_date
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__virtual_available_at_date
+msgid "Virtual Available At Date"
+msgstr "Virtual disponible en la fecha"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.deposit_journal_entry_wizard1
+msgid "Visa Journal Entry"
+msgstr "Entrada de diario de Visa"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation_order__waitername1
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order__waiter_name1
+msgid "Waiter User Name"
+msgstr "Nombre de usuario del camarero"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__warehouse_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__warehouse_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__warehouse_id
+msgid "Warehouse"
+msgstr "Depósito"
+
+#. module: hotel_management
+#: model:ir.model.fields.selection,name:hotel_management.selection__res_partner__reservation_warn__warning
+msgid "Warning"
+msgstr "Advertencia"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "Warning !"
+msgstr "Advertencia !"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "Warning for %s"
+msgstr "Advertencia para %s"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_reservation_line__room_number
+msgid "Will list out all the rooms that belong to selected shop."
+msgstr ""
+"Se hara una lista de todas las Habitaciones que pertenezcan al comercio "
+"Selecciónado"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_restaurant_order__partner_id
+#: model:ir.model.fields,help:hotel_management.field_hotel_restaurant_reservation__cname
+msgid "Will show customer name corresponding to selected room no."
+msgstr ""
+"Mostrara nombre de cliente correspondiendo al numero de Habitación "
+"Seleccionado"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_restaurant_order__room_no
+#: model:ir.model.fields,help:hotel_management.field_hotel_restaurant_reservation__room_no
+msgid ""
+"Will show list of currently occupied room no that belongs to selected shop."
+msgstr ""
+"Mostrara lista de numero de Habitación actualmente ocupada que pertenezcan "
+"al comercio selecionado."
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_restaurant_order__shop_id
+#: model:ir.model.fields,help:hotel_management.field_hotel_restaurant_reservation__shop_id
+msgid ""
+"Will show list of shop that belongs to allowed companies of logged-in user."
+msgstr ""
+"Se mostrara lista de comercios que pertenezcan a Companias permitidas de "
+"usuario logged -in"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_checkout_configuration__shop_id
+msgid ""
+"Will show list of shop that belongs to allowed companies of logged-in user. \n"
+" -Assign a shop to configure shop-wise check out policy."
+msgstr ""
+"Se mostrara lista de comercios que pertenezcan a Compañías permitidas de "
+"usuario logged -in"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_h_activity__shop_id
+#: model:ir.model.fields,help:hotel_management.field_hotel_menucard__shop_id
+#: model:ir.model.fields,help:hotel_management.field_hotel_room__shop_id
+#: model:ir.model.fields,help:hotel_management.field_hotel_room_amenities__shop_id
+#: model:ir.model.fields,help:hotel_management.field_hotel_services__shop_id
+#: model:ir.model.fields,help:hotel_management.field_product_product__shop_id
+#: model:ir.model.fields,help:hotel_management.field_product_template__shop_id
+msgid ""
+"Will show list of shop that belongs to allowed companies of logged-in user. \n"
+" -Assigning a shop will make product exclusive for selected shop."
+msgstr ""
+"Se mostrara lista de comercios que pertenezcan a Compañías permitidas de "
+"usuario logged -in"
+
+#. module: hotel_management
+#: model:ir.model.fields,help:hotel_management.field_hotel_restaurant_tables__shop_id
+msgid ""
+"Will show list of shop that belongs to allowed companies of logged-in user. \n"
+" -Assigning shop name to which this table no belongs to."
+msgstr ""
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.cancel_foilo_wizard_form_view
+msgid "Yes"
+msgstr "Sí"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_report_hotel_management_arrival_dept_guest
+msgid "arrival dept guest"
+msgstr "Invitado del departamento de llegada"
+
+#. module: hotel_management
+#: model:ir.actions.act_window,name:hotel_management.action_cancel_on_datecheck
+msgid "cancel folio"
+msgstr "Cancelar folio"
+
+#. module: hotel_management
+#: model_terms:ir.ui.view,arch_db:hotel_management.hotel_report_view
+msgid "currency exchange rate :"
+msgstr "tasa de cambio de moneda :"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_dashboard_url
+msgid "dashboard url"
+msgstr "URL del panel de control"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_reservation__deposit_cost1
+msgid "deposit cost"
+msgstr "costo del deposito"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__folio_id
+msgid "folio_id"
+msgstr "folio_id"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_transport_line__transport_line_id
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_food_line__food_line_id
+msgid "food_line_id"
+msgstr "food_line_id"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_food_line
+msgid "hotel Food line"
+msgstr "línea de comida del hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_service_line
+msgid "hotel Service line"
+msgstr "Línea de servicio de hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_folio_laundry_line
+msgid "hotel folio laundry line"
+msgstr "línea de lavandería de folio de hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_folio_transport_line
+msgid "hotel folio transport line"
+msgstr "línea de transporte de folio de hotel"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_folio_line
+msgid "hotel folio1 room line"
+msgstr "hotel folio1 Línea de Habitación"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_report_hotel_management_hotel_report_view
+msgid "hotel report view"
+msgstr "vista de informe de hotel"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_line__hotel_reservation_line_id
+msgid "hotel reservation line id="
+msgstr "ID de línea de reserva de hotel ="
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_report_hotel_management_hotel_reservation_room_report
+msgid "hotel reservation room report"
+msgstr "informe de reserva de habitación de hotel"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_folio_laundry_line__laundry_line_id
+msgid "laundry ref"
+msgstr "árbitro de lavandería"
+
+#. module: hotel_management
+#: code:addons/hotel_management/models/hotel_management.py:0
+#, python-format
+msgid "limited to "
+msgstr "Limitado a"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_report_hotel_management_monthly_occupency_report_view
+msgid "monthly occupency report view"
+msgstr "vista de informe de ocupación mensual"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_monthly_occupancy_wizard
+msgid "monthly occupancy wizard"
+msgstr "asistente de ocupación mensual"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_product_product_line
+msgid "product product line"
+msgstr "producto línea de productos"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list__previous_qty
+msgid "quantities"
+msgstr "cantidades"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list__product_qty
+msgid "quantity"
+msgstr "cantidad"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_report_hotel_management_hotel_reservation_checkin_report
+msgid "report hotel_management hotel_reservation_checkin_report"
+msgstr "informe hotel_management hotel_reservation_checkin_report"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_report_hotel_management_hotel_reservation_checkout_report
+msgid "report hotel_management hotel_reservation_checkout_report"
+msgstr "informe hotel_management hotel_reservation_checkout_report"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_report_hotel_management_hotel_reservation_report
+msgid "report hotel_management hotel_reservation_report"
+msgstr "informe hotel_management hotel_reservation_report"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_hotel_room
+msgid "room Inherit "
+msgstr "habitación heredar"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_room_booking_history__category_id
+msgid "room category"
+msgstr "Habitación Categoría"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_report_hotel_management_roomwise_guestwise_report_view
+msgid "roomwise guestwise report view"
+msgstr "Vista de informe de Roomwise Guestwise"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_rr_housekeeping_line
+msgid "rr housekeeping line"
+msgstr "rr línea de limpieza"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_rr_housekeeping_line_wizard
+msgid "rr_housekeeping_line_wizard"
+msgstr "rr_Servico de limpieza_Línea_wizard"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_rr_housekeeping_wizard
+msgid "rr_housekeeping_wizard"
+msgstr "rr_Servico de limpieza_wizard"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_sale_shop
+msgid "sale shop used for territory name"
+msgstr "tienda de venta utilizada para el nombre del territorio"
+
+#. module: hotel_management
+#: model:ir.model,name:hotel_management.model_rr_housekeeping
+msgid "test"
+msgstr "prueba"
+
+#. module: hotel_management
+#: model:ir.model.fields,field_description:hotel_management.field_hotel_restaurant_order_list__total
+msgid "total"
+msgstr "total"

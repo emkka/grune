@@ -1,0 +1,284 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hotel_room_dashboard_view
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-15 16:02+0000\n"
+"PO-Revision-Date: 2022-03-15 16:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid ": Available"
+msgstr ": Disponible"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid ": Booked - Status : Checkout"
+msgstr ": Reservado - Estado: Pago"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid ": Booked - Status : Complete"
+msgstr ":Reservado - Estado: Completo "
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid ": Booked - Status : Done"
+msgstr ": Reservado - Estado : Listo"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid ": Booked - Status : Draft"
+msgstr ": Reservado - Estado : Borrador"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid ": Booked and Under Maintenance"
+msgstr ": Reservado y En Mantenimiento"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid ": Unavailable/ Under Cleaning"
+msgstr ": No disponible/ En limpieza"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid ": Unavailable/ Under Maintenance"
+msgstr ": No disponible/ En mantenimiento"
+
+#. module: hotel_room_dashboard_view
+#: model_terms:ir.ui.view,arch_db:hotel_room_dashboard_view.view_hotel_reservation_dashbord_view
+msgid "Checkout"
+msgstr "Verificar"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "Click to See Room Availability Dashboard"
+msgstr "Haga clic para ver el panel de disponibilidad de habitaciones"
+
+#. module: hotel_room_dashboard_view
+#: model_terms:ir.ui.view,arch_db:hotel_room_dashboard_view.view_hotel_reservation_dashbord_view
+msgid "Confirm Folio"
+msgstr "Confirmar folio"
+
+#. module: hotel_room_dashboard_view
+#: model_terms:ir.ui.view,arch_db:hotel_room_dashboard_view.view_hotel_reservation_dashbord_view
+msgid "Create Invoice"
+msgstr "Crear factura"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_room_dashboard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: hotel_room_dashboard_view
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_room_dashboard__create_date
+msgid "Created on"
+msgstr "Creado por"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.actions.client,name:hotel_room_dashboard_view.hotel_compare_widget_client_actn
+msgid "Dashboard"
+msgstr "Tablero"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_reservation__display_name
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_room_dashboard__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: hotel_room_dashboard_view
+#: model_terms:ir.ui.view,arch_db:hotel_room_dashboard_view.view_hotel_reservation_dashbord_view
+msgid "Done"
+msgstr "Hecho"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "Enter Check-In Date"
+msgstr "Introduzca la fecha de entrada"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "Enter Check-Out Date"
+msgstr "Ingrese la fecha de salida"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "From Date :"
+msgstr "Partir de la fecha :"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid "Hotel"
+msgstr "Hotel"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "Hotel :"
+msgstr "Hotel :"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.ui.menu,name:hotel_room_dashboard_view.mnu_my_widget_main_hotel
+msgid "Hotel Dashboard"
+msgstr "Tablero del hotel"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/js/dashboard_hotel.js:0
+#: code:addons/hotel_room_dashboard_view/static/src/js/dashboard_hotel.js:0
+#: code:addons/hotel_room_dashboard_view/static/src/js/widgets.js:0
+#: code:addons/hotel_room_dashboard_view/static/src/js/widgets.js:0
+#, python-format
+msgid "Hotel Reservation"
+msgstr "Reservación de hotel"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid "Hotel Room Dashboard"
+msgstr "Tablero de la habitación del hotel"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "Hotel Room Dashboard View"
+msgstr "Vista del tablero de la habitación del hotel"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_reservation__id
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_room_dashboard__id
+msgid "ID"
+msgstr "IDENTIFICACIÓN"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_reservation____last_update
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_room_dashboard____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_room_dashboard__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_room_dashboard__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid "My Company"
+msgstr "Mi empresa"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.model.fields,field_description:hotel_room_dashboard_view.field_hotel_room_dashboard__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.actions.act_window,name:hotel_room_dashboard_view.action_open_hotel_room_dashboard
+#: model_terms:ir.ui.view,arch_db:hotel_room_dashboard_view.open_hotel_room_dashboard
+msgid "Open Room Dashboard"
+msgstr "Abrir panel de sala"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "Powered By,"
+msgstr "Energizado por,"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.model,name:hotel_room_dashboard_view.model_hotel_reservation
+msgid "Reservation"
+msgstr "Reservación"
+
+#. module: hotel_room_dashboard_view
+#: model:ir.model,name:hotel_room_dashboard_view.model_hotel_room_dashboard
+msgid "Room Dashboard"
+msgstr "Tablero de sala"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "Room Type :"
+msgstr "Tipo de habitación :"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#: code:addons/hotel_room_dashboard_view/static/src/xml/template.xml:0
+#, python-format
+msgid "Select Hotel"
+msgstr "Seleccionar hotel"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "Select Room Type"
+msgstr "Seleccionar tipo de habitación"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "Show Dashboard"
+msgstr "Mostrar panel"
+
+#. module: hotel_room_dashboard_view
+#. openerp-web
+#: code:addons/hotel_room_dashboard_view/static/src/xml/base.xml:0
+#, python-format
+msgid "To Date :"
+msgstr "Hasta la fecha :"
