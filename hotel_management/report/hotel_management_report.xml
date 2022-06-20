@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<odoo>
+    <data>
+        <!-- <report
+            id="report_arrival_dept_guest"
+            model="arrival.dept.guest.wizard"
+            string="Arrival/Depart Guest List"
+            report_type="qweb-pdf"
+            name="hotel_management.arrival_dept_guest"
+            file="hotel_management.arrival_dept_guest"
+        /> -->
+
+        <record id="report_arrival_dept_guest" model="ir.actions.report">
+            <field name="name">Arrival/Depart Guest List</field>
+            <field name="model">arrival.dept.guest.wizard</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">hotel_management.arrival_dept_guest</field>
+            <field name="report_file">hotel_management.arrival_dept_guest</field>
+        </record>
+
+	</data>
+</odoo>
