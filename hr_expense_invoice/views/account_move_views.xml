@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <!--
+    <record id="action_crear_gasto" model="ir.actions.server">
+        <field name="name">Crear gasto</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="binding_model_id" ref="account.model_account_move"/>
+        <field name="state">code</field>
+        <field name="code">
+action = records.crear_gasto()
+        </field>
+    </record>
+    -->
+    
+    <act_window id="window_crear_gasto" name="Crear gasto" res_model="hr.expense.invoice.crear_gasto" binding_model="account.move" view_mode="form" target="new"/>
+    
+    <record id="view_hr_expense_invoice_crear_gasto_form_multi" model="ir.ui.view">
+        <field name="name">hr.expense.invoice.crear_gasto.form.multi</field>
+        <field name="model">hr.expense.invoice.crear_gasto</field>
+        <field name="arch" type="xml">
+            <form string="Seleccionar empleado">
+                <group>
+                    <group>
+                        <field name="empleado_id"/>
+                    </group>
+                </group>
+                <footer>
+                    <button string="Crear gasto" name="action_crear_gasto" type="object" class="oe_highlight"/>
+                    <button string="Cancel" class="btn btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+    
+</odoo>

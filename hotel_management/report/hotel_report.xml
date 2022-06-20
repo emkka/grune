@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+       <!--  <report 
+            id="report_hotel_folio1"
+            string="Hotel Boarding Invoice"
+            model="hotel.folio"
+            report_type="qweb-pdf"
+            file="hotel_management.hotel_report_view" 
+            name="hotel_management.hotel_report_view" 
+        /> -->
+
+        <record id="report_hotel_folio1" model="ir.actions.report">
+            <field name="name">Hotel Boarding Invoice</field>
+            <field name="model">hotel.folio</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">hotel_management.hotel_report_view</field>
+            <field name="report_file">hotel_management.hotel_report_view</field>
+            <field name="binding_model_id" ref="model_hotel_folio"/>
+            <field name="binding_type">report</field>
+        </record>
+    </data>
+</odoo>
